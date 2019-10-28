@@ -13,7 +13,7 @@ int main()
 
 		do
 		{
-			printf("Collatz Conjecture'u calýstýrmak için lutfen 0'dan buyuk bir sayi girin.\n"); 
+			printf("Collatz Conjecture'u calistirmak için lutfen 0'dan buyuk bir sayi girin.\n"); 
   			scanf("%d", &k);	
 		}while (k <= 0);
 
