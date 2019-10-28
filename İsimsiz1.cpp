@@ -43,7 +43,7 @@ int main()
 		{
 			printf("Ebeveynler çocuk surecini bekliyor ...\n");
 			wait();
-			printf("Ana iþlem yapildi.\n");
+			printf("Ana islem yapildi.\n");
 		}
 	return 0; 
 }
