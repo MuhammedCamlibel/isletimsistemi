@@ -21,7 +21,7 @@ int main()
 
 		if (pid == 0)
 		{
-			printf("cocuk calýsýyor ...\n");
+			printf("cocuk calisiyor ...\n");
 			printf("%d\n",k);
 			while (k!=1)
 			{
