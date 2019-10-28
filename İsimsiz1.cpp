@@ -37,13 +37,13 @@ int main()
 				printf("%d\n",k);
 			}
 		
-			printf("cocuk sureci tamamlandý.\n");
+			printf("cocuk sureci tamamlandi.\n");
 		}
 		else
 		{
 			printf("Ebeveynler çocuk surecini bekliyor ...\n");
 			wait();
-			printf("Ana iþlem yapýldý.\n");
+			printf("Ana iþlem yapildi.\n");
 		}
 	return 0; 
 }
