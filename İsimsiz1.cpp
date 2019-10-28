@@ -4,7 +4,7 @@
 
 int main()
 {
-	printf("\n\nWelcome to Hailstone, by Sean Staz\n");
+	printf("\n\nHosgeldin\n");
 
 	int n=0;
 	int k=0;
@@ -13,15 +13,15 @@ int main()
 
 		do
 		{
-			printf("Please enter a number greater than 0 to run the Collatz Conjecture.\n"); 
+			printf("Collatz Conjecture'u calýstýrmak için lutfen 0'dan buyuk bir sayi girin.\n"); 
   			scanf("%d", &k);	
 		}while (k <= 0);
 
-		pid = fork;
+		pid = fork();
 
 		if (pid == 0)
 		{
-			printf("Child is working...\n");
+			printf("cocuk calýsýyor ...\n");
 			printf("%d\n",k);
 			while (k!=1)
 			{
@@ -37,13 +37,13 @@ int main()
 				printf("%d\n",k);
 			}
 		
-			printf("Child process is done.\n");
+			printf("cocuk sureci tamamlandý.\n");
 		}
 		else
 		{
-			printf("Parents is waiting on child process...\n");
+			printf("Ebeveynler çocuk surecini bekliyor ...\n");
 			wait();
-			printf("Parent process is done.\n");
+			printf("Ana iþlem yapýldý.\n");
 		}
 	return 0; 
 }
